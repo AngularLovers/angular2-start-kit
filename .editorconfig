@@ -1,0 +1,28 @@
+# @AngularClass
+# http://editorconfig.org
+# root：表明是最顶层的配置文件，发现设为true时，才会停止查找.editorconfig文件。
+root = true
+
+# 所有文件遵行以下配置(编码、缩进风格、缩进大小、换行符、结尾符、去除首行空格)
+[*]
+# charset：编码格式，支持latin1、utf-8、utf-8-bom、utf-16be和utf-16le，不建议使用uft-8-bom。
+charset = utf-8
+
+# indent_style：tab为hard-tabs，space为soft-tabs。
+indent_style = space
+
+# indent_size：设置整数表示规定每级缩进的列数和soft-tabs的宽度（译注：空格数）。如果设定为tab，则会使用tab_width的值（如果已指定）。
+indent_size = 2
+
+# end_of_line：定义换行符，支持lf、cr和crlf。
+end_of_line = lf
+
+# insert_final_newline：设为true表明使文件以一个空白行结尾，false反之。
+insert_final_newline = true
+
+# trim_trailing_whitespace：设为true表示会除去换行行首的任意空白字符，false反之。
+trim_trailing_whitespace = true
+
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
